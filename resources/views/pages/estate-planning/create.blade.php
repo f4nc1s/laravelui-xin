@@ -1,7 +1,7 @@
 @extends('layouts.master')
 <title>Create Will | {{ env('APP_NAME', 'Xinui') }}</title>
 @section('content')
-    <div class="container-fluid">
+<div class="container-fluid">
 
         <!-- Page Header -->
         <div class="d-flex align-items-center justify-content-between page-header-breadcrumb flex-wrap gap-2">

@@ -17,6 +17,9 @@ Route::get('estate-planning/account-summary', function () {
 Route::get('estate-planning/will/create', function () {
     return view('pages.estate-planning.create');
 });
+Route::get('estate-planning/will/manage', function () {
+    return view('pages.estate-planning.manage-estate');
+});
 
 // Route for Authentication
 Route::get('signin', function () {
