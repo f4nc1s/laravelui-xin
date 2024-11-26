@@ -8,3 +8,12 @@ Route::get('/', function () {
 Route::get('blank', function () {
     return view('blank');
 });
+
+Route::get('estate-planning/account-summary', function () {
+    return view('pages.estate-planning.as-estate');
+});
+
+// New Route for Will Creation
+Route::get('estate-planning/will/create', function () {
+    return view('pages.estate-planning.create');
+});
