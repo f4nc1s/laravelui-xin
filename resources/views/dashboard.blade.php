@@ -1,5 +1,6 @@
 @extends('layouts.master')
-<title>Dashboard | {{ env('APP_NAME', 'Framework') }}</title>
+{{-- <title>Dashboard | {{ env('APP_NAME', 'Framework') }}</title> --}}
+@section('title', 'Dashboard | ' . env('APP_NAME', 'Framework'))
 @section('content')
 <div class="container-fluid">
     <!-- Start::page-header -->

@@ -1,5 +1,6 @@
 @extends('layouts.master')
-<title>Empty | {{ env('APP_NAME', 'Xinui') }}</title>
+{{-- <title>Empty | {{ env('APP_NAME', 'Xinui') }}</title> --}}
+@section('title', 'Manage Will | ' . env('APP_NAME', 'Framework'))
 @section('content')
     <div class="container-fluid">
 
@@ -43,6 +44,9 @@
                             <button class="btn btn-sm btn-success btn-wave">
                                 <i class="ri-download-2-line align-middle me-2 d-inline-block"></i>Download
                             </button>
+                            <button class="btn btn-sm btn-success btn-wave">
+                                <i class="ri-delete-bin-6-line align-middle me-2 d-inline-block"></i>Delete
+                            </button>
                         </td>
                     </tr>
                     <tr>
@@ -52,6 +56,9 @@
                         <td>
                             <button class="btn btn-sm btn-success btn-wave">
                                 <i class="ri-download-2-line align-middle me-2 d-inline-block"></i>Download
+                            </button>
+                            <button class="btn btn-sm btn-success btn-wave">
+                                <i class="ri-delete-bin-6-line align-middle me-2 d-inline-block"></i>Delete
                             </button>
                         </td>
                     </tr>
@@ -63,6 +70,9 @@
                             <button class="btn btn-sm btn-success btn-wave">
                                 <i class="ri-download-2-line align-middle me-2 d-inline-block"></i>Download
                             </button>
+                            <button class="btn btn-sm btn-success btn-wave">
+                                <i class="ri-delete-bin-6-line align-middle me-2 d-inline-block"></i>Delete
+                            </button>
                         </td>
                     </tr>
                     <tr>
@@ -72,6 +82,9 @@
                         <td>
                             <button class="btn btn-sm btn-success btn-wave">
                                 <i class="ri-download-2-line align-middle me-2 d-inline-block"></i>Download
+                            </button>
+                            <button class="btn btn-sm btn-success btn-wave">
+                                <i class="ri-delete-bin-6-line align-middle me-2 d-inline-block"></i>Delete
                             </button>
                         </td>
                     </tr>

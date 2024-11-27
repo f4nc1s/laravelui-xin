@@ -9,6 +9,9 @@
     <meta name="author" content="{{ env('APP_NAME', 'Xinui') }}">
     <meta name="robots" content="noindex, nofollow">
 
+	<!-- Page Title -->
+    <title>@yield('title')</title>
+
      <!-- Favicon -->
      <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.ico') }}" type="image/x-icon">
 
