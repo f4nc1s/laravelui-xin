@@ -79,7 +79,7 @@
                         {{-- <li class="slide">
                             <a href="sweet-alerts.php.html" class="side-menu__item">Goals Setup</a>
                         </li> --}}
-                        <li class="slide has-sub">
+                        {{-- <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">Beneficiaries
                                 <i class="ri-arrow-down-s-line side-menu__angle"></i></a>
                             <ul class="slide-menu child2">
@@ -90,7 +90,7 @@
                                     <a href="projects-overview.php.html" class="side-menu__item">Manage</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
                 <!-- End::slide -->
@@ -116,7 +116,7 @@
                         <li class="slide">
                             <a href="{{ url('estate-planning/trust/manage') }}" class="side-menu__item">Manage</a>
                         </li>
-                        <li class="slide has-sub">
+                        {{-- <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">Beneficiaries
                                 <i class="ri-arrow-down-s-line side-menu__angle"></i></a>
                             <ul class="slide-menu child2">
@@ -127,7 +127,7 @@
                                     <a href="projects-overview.php.html" class="side-menu__item">Manage</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
                 <!-- End::slide -->
@@ -148,7 +148,7 @@
                             <a href="javascript:void(0)">Beneficiaries</a>
                         </li>
                         <li class="slide">
-                            <a href="javascript:void(0);" class="side-menu__item">Add</a>
+                            <a href="{{ url('estate-planning/beneficiary/add') }}" class="side-menu__item">Add</a>
                         </li>
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">Manage

@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
 Route::get('blank', function () {
     return view('blank');
 });
@@ -19,6 +22,9 @@ Route::get('estate-planning/will/create', function () {
 });
 Route::get('estate-planning/will/manage', function () {
     return view('pages.estate-planning.manage-estate');
+});
+Route::get('estate-planning/beneficiary/add', function () {
+    return view('pages.estate-planning.beneficiaries');
 });
 
 // Route for Authentication
