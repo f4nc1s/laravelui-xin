@@ -49,7 +49,7 @@
                 <!-- End::slide__category -->
 
                 <li class="slide">
-                    <a href="{{ url('estate-planning/account-summary') }}" class="side-menu__item">
+                    <a href="{{ route('account.summary') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -71,10 +71,10 @@
                             <a href="javascript:void(0)">Will</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ url('estate-planning/will/create') }}" class="side-menu__item">Create</a>
+                            <a href="{{ route('will.create') }}" class="side-menu__item">Create</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ url('estate-planning/will/manage') }}" class="side-menu__item">Manage</a>
+                            <a href="{{ route('will.manage') }}" class="side-menu__item">Manage</a>
                         </li>
                         {{-- <li class="slide">
                             <a href="sweet-alerts.php.html" class="side-menu__item">Goals Setup</a>
@@ -111,10 +111,10 @@
                             <a href="javascript:void(0)">Trust</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ url('estate-planning/trust/create') }}" class="side-menu__item">Create</a>
+                            <a href="{{ route('will.create') }}" class="side-menu__item">Create</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ url('estate-planning/trust/manage') }}" class="side-menu__item">Manage</a>
+                            <a href="{{ route('will.manage') }}" class="side-menu__item">Manage</a>
                         </li>
                         {{-- <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">Beneficiaries
@@ -148,7 +148,7 @@
                             <a href="javascript:void(0)">Beneficiaries</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ url('estate-planning/beneficiary/add') }}" class="side-menu__item">Add</a>
+                            <a href="{{ route('beneficiary.add') }}" class="side-menu__item">Add</a>
                         </li>
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">Manage
@@ -247,7 +247,7 @@
                             <a href="javascript:void(0)">Beneficiaries</a>
                         </li>
                         <li class="slide">
-                            <a href="javascript:void(0);" class="side-menu__item">Add</a>
+                            <a href="{{ route('beneficiary.add') }}" class="side-menu__item">Add</a>
                         </li>
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">Manage
@@ -266,6 +266,23 @@
                 <!-- End::slide -->
 
                 <li class="slide__category"><span class="category-name"><hr></span></li>
+
+                <!-- Start::slide -->
+                <li class="slide has-sub">
+                    <a href="javascript:void(0);" class="side-menu__item">
+                        <i class="ri-database-line side-menu__angle"></i>
+                        <span class="side-menu__label">Document Management</span>
+                    </a>
+                    <ul class="slide-menu child2">
+                        <li class="slide">
+                            <a href="{{ url('insurance-management/trust/manage') }}" class="side-menu__item">Secure Valut Storage</a>
+                        </li>
+                        <li class="slide">
+                            <a href="{{ url('insurance-management/trust/manage') }}" class="side-menu__item">Manage</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- End::slide -->
 
                 <!-- Start::slide -->
                 <li class="slide">

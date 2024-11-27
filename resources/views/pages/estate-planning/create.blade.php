@@ -1,5 +1,6 @@
 @extends('layouts.master')
-<title>Create Will | {{ env('APP_NAME', 'Xinui') }}</title>
+{{-- <title>Create Will | {{ env('APP_NAME', 'Xinui') }}</title> --}}
+@section('title', 'Create New Will | ' . env('APP_NAME', 'Framework'))
 @section('content')
 <div class="container-fluid">
 
@@ -37,11 +38,11 @@
                                     <div class="card-body p-0">
                                         <div class="row gy-3">
                                             <div class="col-xl-12">
-                                                <label for="product-name-add" class="form-label">Product Name</label>
+                                                <label for="product-name-add" class="form-label">Document Name</label>
                                                 <input type="text" class="form-control" id="product-name-add"
                                                     placeholder="Name">
                                                 <label for="product-name-add"
-                                                    class="form-label mt-1 fs-12 fw-normal text-muted mb-0">*Product Name
+                                                    class="form-label mt-1 fs-12 fw-normal text-muted mb-0">*Name
                                                     should not exceed 30 characters</label>
                                             </div>
                                             <div class="col-xl-6">
@@ -143,7 +144,7 @@
                                             </div>
                                             <div class="col-xl-12 product-documents-container">
                                                 <p class="fw-medium mb-2 fs-14">Product Images :</p>
-                                                <input type="file" class="product-Images" name="filepond" multiple
+                                                <input type="file" class="form-control product-Images" name="filepond" multiple
                                                     data-allow-reorder="true" data-max-file-size="3MB"
                                                     data-max-files="6">
                                             </div>
@@ -175,7 +176,7 @@
                                             </div>
                                             <div class="col-xl-12 product-documents-container">
                                                 <p class="fw-medium mb-2 fs-14">Warrenty Documents :</p>
-                                                <input type="file" class="product-documents" name="filepond" multiple
+                                                <input type="file" class="form-control product-documents" name="filepond" multiple
                                                     data-allow-reorder="true" data-max-file-size="3MB"
                                                     data-max-files="6">
                                             </div>
