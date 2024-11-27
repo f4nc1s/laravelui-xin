@@ -143,7 +143,7 @@
                                             </div>
                                             <div class="col-xl-12 product-documents-container">
                                                 <p class="fw-medium mb-2 fs-14">Product Images :</p>
-                                                <input type="file" class="form-control product-Images" name="filepond" multiple
+                                                <input type="file" class="product-Images" name="filepond" multiple
                                                     data-allow-reorder="true" data-max-file-size="3MB"
                                                     data-max-files="6">
                                             </div>
@@ -175,7 +175,7 @@
                                             </div>
                                             <div class="col-xl-12 product-documents-container">
                                                 <p class="fw-medium mb-2 fs-14">Warrenty Documents :</p>
-                                                <input type="file" class="form-control product-documents" name="filepond" multiple
+                                                <input type="file" class="product-documents" name="filepond" multiple
                                                     data-allow-reorder="true" data-max-file-size="3MB"
                                                     data-max-files="6">
                                             </div>
