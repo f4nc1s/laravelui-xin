@@ -58,7 +58,7 @@
                         <span class="side-menu__label">Account Summary</span>
                     </a>
                 </li>
-                
+
                 <!-- Start::slide -->
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
@@ -180,7 +180,7 @@
                         <span class="side-menu__label">Account and Policy Summary</span>
                     </a>
                 </li>
-                
+
                 <!-- Start::slide -->
                 <li class="slide">
                     <a href="{{ url('insurance-management/account-summary') }}" class="side-menu__item">
