@@ -45,6 +45,11 @@ Route::get('estate-planning/beneficiary/add', function () {
     return view('pages.estate-planning.beneficiaries');
 })->name('beneficiary.add');
 
+// Route for Adding/Declaring Assets
+Route::get('declare', function () {
+    return view('pages.estate-planning.declaration');
+})->name('declare-asset');
+
 // Route for Authentication
 Route::get('signin', function () {
     return view('auth.signin');
