@@ -537,12 +537,3 @@
 
     </div>
 @endsection
-
-
-@section('scripts')
-    <!-- Apex Charts JS -->
-    <script src="../assets/libs/apexcharts/apexcharts.min.js"></script>
-
-    <!-- Analytics Dashboard --> 
-    <script src="../assets/js/analytics-dashboard.js"></script>
-@endsection

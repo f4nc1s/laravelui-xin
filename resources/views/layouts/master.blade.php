@@ -142,5 +142,9 @@
 
      <!-- Custom-Switcher JS -->
      <script src="{{ asset('assets/js/custom-switcher.min.js') }}"></script>
+
+	 <!-- Scripts Section -->
+	 @yield('scripts')
+
   </body>
 </html>
