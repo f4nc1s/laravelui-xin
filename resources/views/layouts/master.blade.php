@@ -142,5 +142,11 @@
 
      <!-- Custom-Switcher JS -->
      <script src="{{ asset('assets/js/custom-switcher.min.js') }}"></script>
+
+	 <!-- Shepherd JS -->
+	 <script src="{{ asset('assets/libs/shepherd.js/js/shepherd.min.js') }}"></script>
+
+	 <!-- Internal Tour JS -->
+	 <script src="{{ asset('assets/js/tour.js') }}"></script>
   </body>
 </html>
