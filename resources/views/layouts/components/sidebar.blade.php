@@ -50,20 +50,31 @@
 
                 <li class="slide">
                     <a href="{{ route('account.summary') }}" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-home-dot">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5" />
+                            <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.641 0 1.212 .302 1.578 .771" />
                         </svg>
-                        <span class="side-menu__label">Account Summary</span>
+                        <span class="side-menu__label">&nbsp;Overview</span>
                     </a>
                 </li>
-                
+
                 <!-- Start::slide -->
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
-                        <i class="ti ti-file-barcode"></i>
-                        <span class="side-menu__label"> Will</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-folder-plus">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 19h-7a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v3.5" />
+                            <path d="M16 19h6" />
+                            <path d="M19 16v6" />
+                        </svg>
+                        <span class="side-menu__label">&nbsp;Will</span>
                         <i class="ri-arrow-down-s-line side-menu__angle"></i>
                     </a>
                     <ul class="slide-menu child1">
@@ -116,18 +127,6 @@
                         <li class="slide">
                             <a href="{{ route('will.manage') }}" class="side-menu__item">Manage</a>
                         </li>
-                        {{-- <li class="slide has-sub">
-                            <a href="javascript:void(0);" class="side-menu__item">Beneficiaries
-                                <i class="ri-arrow-down-s-line side-menu__angle"></i></a>
-                            <ul class="slide-menu child2">
-                                <li class="slide">
-                                    <a href="projects-list.php.html" class="side-menu__item">Add </a>
-                                </li>
-                                <li class="slide">
-                                    <a href="projects-overview.php.html" class="side-menu__item">Manage</a>
-                                </li>
-                            </ul>
-                        </li> --}}
                     </ul>
                 </li>
                 <!-- End::slide -->
@@ -135,10 +134,15 @@
                 <!-- Start::slide -->
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-user-plus">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                            <path d="M16 19h6" />
+                            <path d="M19 16v6" />
+                            <path d="M6 21v-2a4 4 0 0 1 4 -4h4" />
                         </svg>
                         <span class="side-menu__label">Beneficiaries</span>
                         <i class="ri-arrow-down-s-line side-menu__angle"></i>
@@ -172,24 +176,37 @@
 
                 <li class="slide">
                     <a href="{{ url('insurance-management/account-summary') }}" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-home-dot">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5" />
+                            <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.641 0 1.212 .302 1.578 .771" />
                         </svg>
-                        <span class="side-menu__label">Account and Policy Summary</span>
+                        <span class="side-menu__label">&nbsp;Overview</span>
                     </a>
                 </li>
-                
+
                 <!-- Start::slide -->
                 <li class="slide">
                     <a href="{{ url('insurance-management/account-summary') }}" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-device-desktop-analytics">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+                            <path d="M7 20h10" />
+                            <path d="M9 16v4" />
+                            <path d="M15 16v4" />
+                            <path d="M9 12v-4" />
+                            <path d="M12 12v-1" />
+                            <path d="M15 12v-2" />
+                            <path d="M12 12v-1" />
                         </svg>
-                        <span class="side-menu__label">Needs and Gap Analysis</span>
+                        <span class="side-menu__label">Analysis</span>
                     </a>
                 </li>
                 <!-- End::slide -->
@@ -213,7 +230,8 @@
                             <a href="{{ url('insurance-management/trust/create') }}" class="side-menu__item">Add</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ url('insurance-management/trust/manage') }}" class="side-menu__item">Manage</a>
+                            <a href="{{ url('insurance-management/trust/manage') }}"
+                                class="side-menu__item">Manage</a>
                         </li>
                         <li class="slide has-sub">
                             <a href="javascript:void(0);" class="side-menu__item">Payments
@@ -234,10 +252,15 @@
                 <!-- Start::slide -->
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-user-plus">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                            <path d="M16 19h6" />
+                            <path d="M19 16v6" />
+                            <path d="M6 21v-2a4 4 0 0 1 4 -4h4" />
                         </svg>
                         <span class="side-menu__label">Beneficiaries</span>
                         <i class="ri-arrow-down-s-line side-menu__angle"></i>
@@ -265,20 +288,32 @@
                 </li>
                 <!-- End::slide -->
 
-                <li class="slide__category"><span class="category-name"><hr></span></li>
+                <li class="slide__category"><span class="category-name">
+                        <hr>
+                    </span></li>
 
                 <!-- Start::slide -->
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
-                        <i class="ri-database-line side-menu__angle"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-file-stack">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                            <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" />
+                            <path d="M5 21h14" />
+                            <path d="M5 18h14" />
+                            <path d="M5 15h14" />
+                        </svg>
                         <span class="side-menu__label">Document Management</span>
                     </a>
                     <ul class="slide-menu child2">
                         <li class="slide">
-                            <a href="{{ url('insurance-management/trust/manage') }}" class="side-menu__item">Secure Valut Storage</a>
+                            <a href="{{ route('digital.store') }}" class="side-menu__item">Secure Valut Storage</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ url('insurance-management/trust/manage') }}" class="side-menu__item">Manage</a>
+                            <a href="{{ route('digital.manage') }}" class="side-menu__item">Manage</a>
                         </li>
                     </ul>
                 </li>
@@ -286,8 +321,20 @@
 
                 <!-- Start::slide -->
                 <li class="slide">
-                    <a href="icons.php.html" class="side-menu__item">
-                        <i class="ri-profile-line"></i>
+                    <a href="{{ route('profile') }}" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-address-book">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z" />
+                            <path d="M10 16h6" />
+                            <path d="M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M4 8h3" />
+                            <path d="M4 12h3" />
+                            <path d="M4 16h3" />
+                        </svg>
                         <span class="side-menu__label"> Profile</span>
                     </a>
                 </li>
@@ -295,137 +342,20 @@
 
                 <!-- Start::slide -->
                 <li class="slide">
-                    <a href="icons.php.html" class="side-menu__item">
-                        <i class="ri-logout-box-r-line"></i>
+                    <a href="{{ route('signin') }}" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-logout">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                            <path d="M9 12h12l-3 -3" />
+                            <path d="M18 15l3 -3" />
+                        </svg>
                         <span class="side-menu__label"> Logout</span>
                     </a>
                 </li>
                 <!-- End::slide -->
 
-                <!-- Start::slide__category -->
-                <li class="slide__category"><span class="category-name">Tables & Charts</span></li>
-                <!-- End::slide__category -->
-
-                <!-- Start::slide -->
-                <li class="slide has-sub">
-                    <a href="javascript:void(0);" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
-                        </svg>
-                        <span class="side-menu__label">Charts</span>
-                        <i class="ri-arrow-down-s-line side-menu__angle"></i>
-                    </a>
-                    <ul class="slide-menu child1">
-                        <li class="slide side-menu__label1">
-                            <a href="javascript:void(0)">Charts</a>
-                        </li>
-                        <li class="slide has-sub">
-                            <a href="javascript:void(0);" class="side-menu__item">Apex Charts
-                                <i class="ri-arrow-down-s-line side-menu__angle"></i></a>
-                            <ul class="slide-menu child2">
-                                <li class="slide">
-                                    <a href="apex-line-charts.php.html" class="side-menu__item">Line Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-area-charts.php.html" class="side-menu__item">Area Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-column-charts.php.html" class="side-menu__item">Column Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-bar-charts.php.html" class="side-menu__item">Bar Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-mixed-charts.php.html" class="side-menu__item">Mixed Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-rangearea-charts.php.html" class="side-menu__item">Range Area
-                                        Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-timeline-charts.php.html" class="side-menu__item">Timeline
-                                        Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-funnel-charts.php.html" class="side-menu__item">Funnel Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-candlestick-charts.php.html" class="side-menu__item">CandleStick
-                                        Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-boxplot-charts.php.html" class="side-menu__item">Boxplot Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-bubble-charts.php.html" class="side-menu__item">Bubble Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-scatter-charts.php.html" class="side-menu__item">Scatter Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-heatmap-charts.php.html" class="side-menu__item">Heatmap Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-treemap-charts.php.html" class="side-menu__item">Treemap Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-pie-charts.php.html" class="side-menu__item">Pie Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-radialbar-charts.php.html" class="side-menu__item">Radialbar
-                                        Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-radar-charts.php.html" class="side-menu__item">Radar Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-polararea-charts.php.html" class="side-menu__item">Polararea
-                                        Charts</a>
-                                </li>
-                                <li class="slide">
-                                    <a href="apex-slope-charts.php.html" class="side-menu__item">Slope Charts</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="slide">
-                            <a href="chartjs-charts.php.html" class="side-menu__item">Chartjs Charts</a>
-                        </li>
-                        <li class="slide">
-                            <a href="echarts.php.html" class="side-menu__item">Echart Charts</a>
-                        </li>
-                    </ul>
-                </li>
-                <!-- End::slide -->
-
-                <!-- Start::slide -->
-                <li class="slide has-sub">
-                    <a href="javascript:void(0);" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
-                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 0 1-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0 1 12 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5" />
-                        </svg>
-                        <span class="side-menu__label">Tables</span>
-                        <i class="ri-arrow-down-s-line side-menu__angle"></i>
-                    </a>
-                    <ul class="slide-menu child1">
-                        <li class="slide side-menu__label1">
-                            <a href="javascript:void(0)">Tables</a>
-                        </li>
-                        <li class="slide">
-                            <a href="tables.php.html" class="side-menu__item">Tables</a>
-                        </li>
-                        <li class="slide">
-                            <a href="grid-tables.php.html" class="side-menu__item">Grid JS Tables</a>
-                        </li>
-                        <li class="slide">
-                            <a href="data-tables.php.html" class="side-menu__item">Data Tables</a>
-                        </li>
-                    </ul>
-                </li>
-                <!-- End::slide -->
 
             </ul>
             <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"

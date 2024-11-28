@@ -12,6 +12,20 @@ Route::get('blank', function () {
     return view('blank');
 });
 
+Route::get('profile', function () {
+    return view('pages.profile');
+})->name('profile');
+
+
+// Route for Digital Storage
+Route::get('digital-storage/manage', function () {
+    return view('pages.digital-storage.manage');
+})->name('digital.manage');
+
+Route::get('digital-storage/store', function () {
+    return view('pages.digital-storage.store');
+})->name('digital.store');
+
 // Route for Estate Planning Account Summary
 Route::get('estate-planning/account-summary', function () {
     return view('pages.estate-planning.as-estate');

@@ -13,24 +13,14 @@
                             Dashboards
                         </a>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">Crypto</li>
                 </ol>
             </nav>
-            <h1 class="page-title fw-medium fs-18 mb-0">Crypto</h1>
-        </div>
-        <div class="btn-list">
-            <button class="btn btn-white btn-wave">
-                <i class="ri-filter-3-line align-middle me-1 lh-1"></i> Filter
-            </button>
-            <button class="btn btn-primary btn-wave me-0">
-                <i class="ri-share-forward-line me-1"></i> Share
-            </button>
         </div>
     </div>
     <!-- End::page-header -->
 
     <!-- Start::row-1 -->
-    <div class="row">
+    {{-- <div class="row">
         <div class="col-xl-12">
             <div class="swiper crypto-swiper swiper-basic">
                 <div class="swiper-wrapper">
@@ -191,7 +181,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End::row-1 -->
 
     <!-- Start:: row-2 -->
@@ -699,280 +689,124 @@
 
     <!-- Start:: row-4 -->
     <div class="row">
-        <div class="col-xl-12">
-            <div class="card custom-card">
-                <div class="card-header justify-content-between">
-                    <div class="card-title">My Portfolio</div>
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-primary btn-sm">1D</button>
-                        <button type="button" class="btn btn-primary-light btn-sm">1W</button>
-                        <button type="button" class="btn btn-primary-light btn-sm">1M</button>
-                        <button type="button" class="btn btn-primary-light btn-sm">1Y</button>
-                    </div>
-                </div>
-                <div class="card-body p-0">
-                    <div class="table-responsive">
-                        <table class="table table-hover text-nowrap nft-table">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Coin</th>
-                                    <th>Price</th>
-                                    <th>Price Graph</th>
-                                    <th>24h Volume</th>
-                                    <th>24h Change</th>
-                                    <th>Market Cap</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        1
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center gap-2">
-                                            <div class="lh-1">
-                                                <span class="avatar avatar-xs">
-                                                    <img src="../assets/images/crypto-currencies/crypto-icons/bitcoin-btc-logo.svg" alt="">
-                                                </span>
-                                            </div>
-                                            <div class="fs-14">Bitcoin - BTC</div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        $34,283.53
-                                    </td>
-                                    <td>
-                                        <div id="bitcoin-change"></div>
-                                    </td>
-                                    <td>
-                                        21,457.02M
-                                    </td>
-                                    <td>
-                                        <span class="text-success"><i class="ri-arrow-up-s-fill me-1 fs-15 align-middle"></i>39.23%</span>
-                                    </td>
-                                    <td>
-                                        $669,649,033,571
-                                    </td>
-                                    <td>
-                                        <div class="btn-grp">
-                                            <button type="button" class="btn btn-sm btn-primary-light me-2">Buy</button>
-                                            <button type="button" class="btn btn-sm btn-primary1-light">Trade</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        2
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center gap-2">
-                                            <div class="lh-1">
-                                                <span class="avatar avatar-xs">
-                                                    <img src="../assets/images/crypto-currencies/crypto-icons/ethereum-eth-logo.svg" alt="">
-                                                </span>
-                                            </div>
-                                            <div class="fs-14">Etherium - ETH</div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        $1,800.81
-                                    </td>
-                                    <td>
-                                        <div id="etherium-change"></div>
-                                    </td>
-                                    <td>
-                                        11,784.22M
-                                    </td>
-                                    <td>
-                                        <span class="text-danger"><i class="ri-arrow-down-s-fill me-1 fs-15 align-middle"></i>58.63%</span>
-                                    </td>
-                                    <td>
-                                        $216,466,869,907
-                                    </td>
-                                    <td>
-                                        <div class="btn-grp">
-                                            <button type="button" class="btn btn-sm btn-primary-light me-2">Buy</button>
-                                            <button type="button" class="btn btn-sm btn-primary1-light">Trade</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        3
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center gap-2">
-                                            <div class="lh-1">
-                                                <span class="avatar avatar-xs">
-                                                    <img src="../assets/images/crypto-currencies/crypto-icons/tether-usdt-logo.svg" alt="">
-                                                </span>
-                                            </div>
-                                            <div class="fs-14">Tether - USDT</div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        $1.00
-                                    </td>
-                                    <td>
-                                        <div id="tether-change"></div>
-                                    </td>
-                                    <td>
-                                        33,874.25M
-                                    </td>
-                                    <td>
-                                        <span class="text-success"><i class="ri-arrow-up-s-fill me-1 fs-15 align-middle"></i>49.30%</span>
-                                    </td>
-                                    <td>
-                                        $84,641,938,780
-                                    </td>
-                                    <td>
-                                        <div class="btn-grp">
-                                            <button type="button" class="btn btn-sm btn-primary-light me-2">Buy</button>
-                                            <button type="button" class="btn btn-sm btn-primary1-light">Trade</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        4
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center gap-2">
-                                            <div class="lh-1">
-                                                <span class="avatar avatar-xs">
-                                                    <img src="../assets/images/crypto-currencies/crypto-icons/solana-sol-logo.svg" alt="">
-                                                </span>
-                                            </div>
-                                            <div class="fs-14">Solana - SOL</div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        $35.97
-                                    </td>
-                                    <td>
-                                        <div id="solana-change"></div>
-                                    </td>
-                                    <td>
-                                        33,749.56M
-                                    </td>
-                                    <td>
-                                        <span class="text-danger"><i class="ri-arrow-down-s-fill me-1 fs-15 align-middle"></i>144.58%</span>
-                                    </td>
-                                    <td>
-                                        $15,083,616,607
-                                    </td>
-                                    <td>
-                                        <div class="btn-grp">
-                                            <button type="button" class="btn btn-sm btn-primary-light me-2">Buy</button>
-                                            <button type="button" class="btn btn-sm btn-primary1-light">Trade</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        5
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center gap-2">
-                                            <div class="lh-1">
-                                                <span class="avatar avatar-xs">
-                                                    <img src="../assets/images/crypto-currencies/crypto-icons/cardano-ada-logo.svg" alt="">
-                                                </span>
-                                            </div>
-                                            <div class="fs-14">Cardano - ADA</div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        $0.3008
-                                    </td>
-                                    <td>
-                                        <div id="cardano-change"></div>
-                                    </td>
-                                    <td>
-                                        89,554.62M
-                                    </td>
-                                    <td>
-                                        <span class="text-danger"><i class="ri-arrow-down-s-fill me-1 fs-15 align-middle"></i>51.15%</span>
-                                    </td>
-                                    <td>
-                                        $10,600,249,889
-                                    </td>
-                                    <td>
-                                        <div class="btn-grp">
-                                            <button type="button" class="btn btn-sm btn-primary-light me-2">Buy</button>
-                                            <button type="button" class="btn btn-sm btn-primary1-light">Trade</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="border-bottom-0">
-                                        6
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <div class="lh-1">
-                                                <span class="avatar avatar-xs">
-                                                    <img src="../assets/images/crypto-currencies/crypto-icons/binance-usd-busd-logo.svg" alt="">
-                                                </span>
-                                            </div>
-                                            <div class="fs-14">Binance - BNB</div>
-                                        </div>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        $227.36
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <div id="binance-change"></div>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        65,547.15M
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <span class="text-success"><i class="ri-arrow-up-s-fill me-1 fs-15 align-middle"></i>25.85%</span>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        $34,488,924,548
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <div class="btn-grp">
-                                            <button type="button" class="btn btn-sm btn-primary-light me-2">Buy</button>
-                                            <button type="button" class="btn btn-sm btn-primary1-light">Trade</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <div class="d-flex align-items-center">
-                        <div>
-                            Showing 5 Entries <i class="bi bi-arrow-right ms-2 align-middle"></i>
+        <!-- Start:: row-1 -->
+        <div class="row justify-content-center">
+            <div class="col-xxl-11">
+                <div class="card custom-card border overflow-hidden">
+                    <div class="card-header">
+                        <div class="card-title">
+                            History
                         </div>
-                        <div class="ms-auto">
-                            <nav aria-label="Page navigation" class="pagination-style-4">
-                                <ul class="pagination mb-0">
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="javascript:void(0);">
-                                            Prev
-                                        </a>
-                                    </li>
-                                    <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link text-primary" href="javascript:void(0);">
-                                            next
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
+                    </div>
+                    <div class="card-body bg-light">
+                        <div class="timeline container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="timeline-container">
+                                        <div class="timeline-end">
+                                            <span class="p-1 fs-11 bg-primary2 text-fixed-white backdrop-blur text-center border border-primary2 border-opacity-10 rounded-1 lh-1 fw-medium">
+                                                22 January 2024
+                                            </span>
+                                        </div>
+                                        <div class="timeline-continue">
+                                            <div class="timeline-right">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-date text-muted mb-2">
+                                                        15:36, Monday
+                                                    </p>
+                                                    <div class="timeline-box">
+                                                        <p class="mb-2">
+                                                            <b>You </b> Tagged <b> Emma Thompson</b>  in a Photo.
+                                                        </p>
+                                                        <p class="mb-2">
+                                                            "Including Emma in cherished memories captured on camera, tagging her in a photo to share a moment of joy or significance and inviting her to reminisce together."
+                                                        </p>
+                                                        <p class="profile-activity-media mb-0">
+                                                            <a href="javascript:void(0);">
+                                                                <img src="../assets/images/media/media-17.jpg" alt="" class="mb-0">
+                                                            </a>    
+                                                            <a href="javascript:void(0);">
+                                                                <img src="../assets/images/media/media-18.jpg" alt="" class="mb-0">
+                                                            </a>    
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-right">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-date text-muted mb-2">
+                                                        22:45, Monday
+                                                    </p>
+                                                    <div class="timeline-box">
+                                                        <p class="text-muted mb-2">
+                                                            <span class="text-default"><b>Michel</b> Retweeted Emily <a href="javascript:void(0);" class="text-primary1 fw-medium text-decoration-underline">Davis</a>'s Tweet </span>.
+                                                        </p>
+                                                        <p class="text-muted mb-0">
+                                                            Amplifying Emily's message and sharing it with your own Twitter followers, acknowledging the importance or relevance of her tweet and extending its reach across the platform.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-end mb-5">
+                                                <span class="p-1 fs-11 bg-primary3 text-fixed-white backdrop-blur text-center border border-primary2 border-opacity-10 rounded-1 lh-1 fw-medium z-1 position-relative">
+                                                    25 January 2024
+                                                </span>
+                                            </div>
+                                            <div class="timeline-right">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-date text-muted mb-2">
+                                                        09:14, Thursday
+                                                    </p>
+                                                    <div class="timeline-box">
+                                                        <p class="text-muted mb-1">
+                                                            <span class="text-default"><b>You</b> Shared <b>a Recipe </b></span>on Sarah Johnson's Timeline.
+                                                        </p>
+                                                        <p class="text-muted">Spreading culinary inspiration by sharing a mouth-watering recipe on Sarah's timeline, encouraging others to indulge in delicious homemade dishes and fostering a sense of community around food.</p>
+                                                        <p class="profile-activity-media mb-0">
+                                                            <a href="javascript:void(0);">
+                                                                <img src="../assets/images/media/media-59.jpg" class="mb-0" alt="">
+                                                            </a>  
+                                                            <a href="javascript:void(0);">
+                                                                <img src="../assets/images/media/media-60.jpg" class="mb-0" alt="">
+                                                            </a>  
+                                                            <a href="javascript:void(0);">
+                                                                <img src="../assets/images/media/media-61.jpg" class="mb-0" alt="">
+                                                            </a>  
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-right">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-date text-muted mb-2">
+                                                        17:56, Thursday
+                                                    </p>
+                                                    <div class="timeline-box mb-2">
+                                                        <p class="mb-1">
+                                                            <b>You</b> Participated in a Poll Created by <b> Ethan Clark</b>  <a class="text-primary2" href="javascript:void(0);"><u>#analysis-decision-making</u></a>.
+                                                        </p>
+                                                        <p class="text-muted">Sharing your perspective and contributing to Ethan's data collection through participation in his poll, providing valuable feedback and insights to inform further analysis and decision-making.</p>
+                                                        <p class="profile-activity-media mb-0">
+                                                            <a href="javascript:void(0);">
+                                                                <img src="../assets/images/media/media-26.jpg" alt="" class="mb-0">
+                                                            </a>    
+                                                            <a href="javascript:void(0);">
+                                                                <img src="../assets/images/media/media-29.jpg" alt="" class="mb-0">
+                                                            </a>    
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- End:: row-1 -->
     </div>
     <!-- End:: row-4 -->
 
