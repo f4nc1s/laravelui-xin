@@ -208,3 +208,12 @@
 
     </div>
 @endsection
+
+@section('scripts')
+    <!-- Shepherd JS -->
+    <script src="{{ asset('assets/libs/shepherd.js/js/shepherd.min.js') }}"></script>
+    <!-- Internal Tour JS -->
+    <script src="{{ asset('assets/js/tour.js') }}"></script>
+    <!-- Shepherd Css -->
+    <link rel="stylesheet" href="../assets/libs/shepherd.js/css/shepherd.css">
+@endsection

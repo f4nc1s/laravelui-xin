@@ -17,3 +17,16 @@
 
 </div>
   @endsection
+
+  @section('scripts')
+  {{-- Add Needed Libraries --}}
+    {{-- <!-- Shepherd JS -->
+    <script src="{{ asset('assets/js/form-wizard-init.js') }}"></script>
+    <!-- Vanilla-Wizard JS -->
+    <script src="{{ asset('assets/libs/vanilla-wizard/js/wizard.min.js') }}"></script>
+
+    <!-- Internal Form Wizard JS -->
+    <script src="{{ asset('assets/js/form-wizard.js') }}"></script>
+    <script src="{{ asset('assets/js/form-wizard-init.js') }}"></script> --}}
+
+@endsection

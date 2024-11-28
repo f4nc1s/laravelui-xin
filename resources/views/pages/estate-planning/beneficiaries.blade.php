@@ -56,7 +56,7 @@
                     <label for="input-file" class="form-label">Image</label>
                     <input class="form-control" type="file" id="input-file">
                 </div>
-        
+
                 <!-- Button Column -->
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-start align-items-center">
                     <input type="reset" class="btn btn-secondary me-2" id="input-reset" value="Reset">
@@ -85,7 +85,8 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <label for="input-relationship" class="form-label">Relationship</label>
-                                <input type="text" class="form-control" id="input-relationship" placeholder="Relationship">
+                                <input type="text" class="form-control" id="input-relationship"
+                                    placeholder="Relationship">
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <label for="input-email" class="form-label">Email</label>
@@ -99,9 +100,10 @@
                                 <label for="input-file" class="form-label">Image</label>
                                 <input class="form-control" type="file" id="input-file">
                             </div>
-        
+
                             <!-- Button Column -->
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-start align-items-center">
+                            <div
+                                class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-start align-items-center">
                                 <input type="reset" class="btn btn-secondary me-2" id="input-reset" value="Reset">
                                 <input type="button" class="btn btn-primary" id="input-submit" value="Submit">
                             </div>
@@ -114,4 +116,25 @@
 
 
     </div>
+@endsection
+
+
+@section('scripts')
+    <!-- Shepherd JS -->
+    <script src="{{ asset('assets/js/form-wizard-init.js') }}"></script>
+    <!-- Vanilla-Wizard JS -->
+    <script src="{{ asset('assets/libs/vanilla-wizard/js/wizard.min.js') }}"></script>
+
+    <!-- Internal Form Wizard JS -->
+    <script src="{{ asset('assets/js/form-wizard.js') }}"></script>
+    <script src="{{ asset('assets/js/form-wizard-init.js') }}"></script>
+
+    <link rel="stylesheet" href="../assets/libs/quill/quill.snow.css">
+    <link rel="stylesheet" href="../assets/libs/quill/quill.bubble.css">
+
+    <!-- Filepond CSS -->
+    <link rel="stylesheet" href="../assets/libs/filepond/filepond.min.css">
+    <link rel="stylesheet" href="../assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css">
+    <link rel="stylesheet" href="../assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css">
+
 @endsection
