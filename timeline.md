@@ -19,10 +19,10 @@
     - Dashboard and account overview pages
     - Beneficiaries
 
-### Upcoming Tasks
+## Upcoming Tasks
 
 
-## UI/UX Development
+### UI/UX Development
 
 - Create flow process for asset declaration
 - Modify wills creation page
@@ -30,7 +30,7 @@
 - Sort beneficiaries link for better organization
 - Consider using popup charts instead of listed style in shopperJS
 
-## Future Considerations
+### Future Considerations
 
 
 - Streamline pages for better user experience
