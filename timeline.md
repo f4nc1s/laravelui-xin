@@ -28,7 +28,7 @@
 - Modify wills creation page
 - Move beneficiaries to their own route
 - Sort beneficiaries link for better organization
-- Consider using popup charts instead of listed style in shopperJS
+- Consider using popup charts instead of listed style in sherperdJS
 
 ### Future Considerations
 

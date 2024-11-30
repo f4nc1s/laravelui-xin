@@ -71,3 +71,14 @@ Route::get('wills', function () {
 Route::get('addNewWill', function () {
     return view('pages.estate-planning.addNewWill');
 })->name('addNewWill');
+
+//Test
+Route::get('trust', function () {
+    return view('pages.estate-planning.trust');
+});
+Route::get('create-trust', function () {
+    return view('pages.estate-planning.trust-create');
+})->name('trust.create');
+Route::get('trust/view', function () {
+    return view('pages.estate-planning.trust-view');
+})->name('trust.view');
