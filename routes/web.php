@@ -63,3 +63,11 @@ Route::get('resetpass', function () {
 Route::get('otp', function () {
     return view('auth.otp');
 });
+
+//Test
+Route::get('wills', function () {
+    return view('pages.estate-planning.will');
+});
+Route::get('addNewWill', function () {
+    return view('pages.estate-planning.addNewWill');
+})->name('addNewWill');

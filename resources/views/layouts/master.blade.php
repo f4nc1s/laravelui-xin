@@ -67,7 +67,7 @@
     </div>
     <!-- Loader -->
     <div class="page">
-        
+
 		<!-- include the header -->
 		@include('layouts.components.header')
 
@@ -139,7 +139,7 @@
 
      <!-- Custom JS -->
      <script src="{{ asset('assets/js/custom.js') }}"></script>
-
+     <script src="{{ asset('assets/js/widgets.js') }}"></script>
      <!-- Custom-Switcher JS -->
      <script src="{{ asset('assets/js/custom-switcher.min.js') }}"></script>
 
