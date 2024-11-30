@@ -657,7 +657,7 @@
 @section('scripts')
     <!-- Shepherd JS -->
     <script src="{{ asset('assets/js/form-wizard-init.js') }}"></script>
-    
+
     <!-- Vanilla-Wizard JS -->
     <script src="{{ asset('assets/libs/vanilla-wizard/js/wizard.min.js') }}"></script>
 
