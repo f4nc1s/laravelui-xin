@@ -165,10 +165,10 @@
                             <a href="javascript:void(0)">Trust</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ route('will.create') }}" class="side-menu__item">Create</a>
+                            <a href="{{ route('trust') }}" class="side-menu__item">Create</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ route('will.manage') }}" class="side-menu__item">Manage</a>
+                            <a href="{{ route('trust.view') }}" class="side-menu__item">Manage</a>
                         </li>
                     </ul>
                 </li>

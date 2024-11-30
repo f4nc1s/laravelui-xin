@@ -579,9 +579,9 @@
                                         <td><span class="badge bg-success">Active</span></td>
                                         <td>
                                             <div class="hstack gap-2 fs-15">
-                                                <a aria-label="anchor" href="javascript:void(0);"
+                                                <a aria-label="anchor" href="{{ route('trust.view') }}"
                                                     class="btn btn-icon btn-sm btn-success-light"><i
-                                                        class="ri-download-2-line"></i></a>
+                                                        class="ri-eye-line"></i></a>
                                                 <a aria-label="anchor" href="javascript:void(0);"
                                                     class="btn btn-icon btn-sm btn-primary-light"><i
                                                         class="ri-edit-line"></i></a>

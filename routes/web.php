@@ -75,7 +75,7 @@ Route::get('addNewWill', function () {
 //Test
 Route::get('trust', function () {
     return view('pages.estate-planning.trust');
-});
+})->name('trust');
 Route::get('create-trust', function () {
     return view('pages.estate-planning.trust-create');
 })->name('trust.create');
