@@ -23,22 +23,6 @@
         <!-- End::page-header -->
 
         <div class="row">
-            <div class="col-xxl-4">
-                <div class="card custom-card main-dashboard-banner main-dashboard-banner2 overflow-hidden">
-                    <div class="card-body p-4">
-                        <div class="row justify-content-between">
-                            <div class="col-xxl-8 col-xl-4 col-lg-5 col-md-5 col-sm-5">
-                                <h4 class="mb-3 fw-medium text-fixed-white">Manage Your Estate Effectively</h4>
-                                <p class="mb-3 text-fixed-white fs-11">Upgrade Now for Premium Access and Unlock Exclusive Features!</p>
-                                <a href="javascript:void(0);" class="fw-medium text-fixed-white text-decoration-underline">Upgrade Now<i class="ti ti-arrow-narrow-right"></i></a>
-                            </div>
-                            <div class="col-xxl-4 col-xl-7 col-lg-7 col-md-7 col-sm-7 d-sm-block d-none text-end my-auto">
-                                <img src="../assets/images/media/media-91.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-xxl-8">
                 <div class="row">
                     <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12">

@@ -65,8 +65,7 @@
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-user-plus">
+                            stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-plus">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
                             <path d="M16 19h6" />
@@ -120,8 +119,23 @@
                     </a>
                 </li>
 
+                <li class="slide">
+                    <a href="{{ route('wills') }}" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-folder-plus">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 19h-7a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v3.5" />
+                            <path d="M16 19h6" />
+                            <path d="M19 16v6" />
+                        </svg>
+                        <span class="side-menu__label">&nbsp;Will</span>
+                    </a>
+                </li>
+
                 <!-- Start::slide -->
-                <li class="slide has-sub">
+                {{-- <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -146,11 +160,24 @@
                             <a href="{{ route('wills') }}" class="side-menu__item">Manage</a>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
                 <!-- End::slide -->
 
+
+                <li class="slide">
+                    <a href="{{ route('trust') }}" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            fill="currentColor">
+                            <path
+                                d="M12 19H14V6.00003L20.3939 8.74028C20.7616 8.89786 21 9.2594 21 9.65943V19H23V21H1V19H3V5.6499C3 5.25472 3.23273 4.89659 3.59386 4.73609L11.2969 1.31251C11.5493 1.20035 11.8448 1.314 11.9569 1.56634C11.9853 1.63027 12 1.69945 12 1.76941V19Z">
+                            </path>
+                        </svg>
+                        <span class="side-menu__label">&nbsp;Trust</span>
+                    </a>
+                </li>
+
                 <!-- Start::slide -->
-                <li class="slide has-sub">
+                {{-- <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -171,7 +198,7 @@
                             <a href="{{ route('trust.view') }}" class="side-menu__item">Manage</a>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
                 <!-- End::slide -->
 
 
