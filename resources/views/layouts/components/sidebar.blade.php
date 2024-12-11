@@ -44,7 +44,7 @@
                 </li>
                 <!-- End::slide -->
 
-                <li class="slide">
+                {{-- <li class="slide">
                     <a href="{{ route('declare-asset') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -58,7 +58,7 @@
                         </svg>
                         <span class="side-menu__label">&nbsp;Asset Declaration</span>
                     </a>
-                </li>
+                </li> --}}
 
                 <!-- Start::slide -->
                 <li class="slide has-sub">
@@ -140,10 +140,10 @@
                             <a href="javascript:void(0)">Will</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ route('will.create') }}" class="side-menu__item">Create</a>
+                            <a href="{{ route('addNewWill') }}" class="side-menu__item">Create</a>
                         </li>
                         <li class="slide">
-                            <a href="{{ route('will.manage') }}" class="side-menu__item">Manage</a>
+                            <a href="{{ route('wills') }}" class="side-menu__item">Manage</a>
                         </li>
                     </ul>
                 </li>

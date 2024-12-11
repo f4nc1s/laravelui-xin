@@ -67,7 +67,7 @@ Route::get('otp', function () {
 //Test
 Route::get('wills', function () {
     return view('pages.estate-planning.will');
-});
+})->name('wills');
 Route::get('addNewWill', function () {
     return view('pages.estate-planning.addNewWill');
 })->name('addNewWill');

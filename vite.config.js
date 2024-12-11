@@ -6,12 +6,12 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/app.css',
-                'resources/css/styles.css',
+                'resources/assets/css/styles.css',
                 'resources/js/app.js',
                 'resources/js/simplebar.js',
                 'resources/js/crypto-dashboard.js',
                 'resources/js/sticky.js',
-                'resources/js/tour.js',
+                'resources/assets/js/tour.js',
                 'resources/js/defaultmenu.min.js',
                 'resources/js/custom.js',
                 'resources/js/main.js',
