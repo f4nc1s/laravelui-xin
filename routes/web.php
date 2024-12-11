@@ -82,3 +82,9 @@ Route::get('create-trust', function () {
 Route::get('trust/view', function () {
     return view('pages.estate-planning.trust-view');
 })->name('trust.view');
+
+
+// Route for Insurance Management Account Summary
+Route::get('insurance-management/account-summary', function () {
+    return view('pages.insurance-management.as-insurance');
+})->name('insurance.account.summary');
